@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="YetuCoders é uma startup angolana de desenvolvimento de software focada em inovação local, impacto real, educação, empreendedorismo e inovação social."
+    />
+    <title>YetuCoders</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+
+    <div class="splash" aria-hidden="true">
+      <div class="splash__inner">
+        <img
+          class="logo-asset logo-asset--light splash__logo"
+          src="./assets/yetucoders-logo.png"
+          alt=""
+          width="132"
+          height="132"
+        />
+        <div class="splash__copy">
+          <p class="splash__name">YetuCoders</p>
+          <p class="splash__tag">Feito por nós, para nós</p>
+        </div>
+      </div>
+    </div>
+
+    <header class="nav" data-nav>
+      <a class="nav__brand" href="#hero" aria-label="YetuCoders">
+        <img
+          class="logo-asset logo-asset--light nav__logo"
+          src="./assets/yetucoders-logo.png"
+          alt=""
+          width="42"
+          height="42"
+        />
+        <span>YetuCoders</span>
+      </a>
+
+      <nav class="nav__links" data-nav-links aria-label="Navegação principal">
+        <a href="#about">Quem Somos</a>
+        <a href="#services">O Que Fazemos</a>
+        <a href="#partners">Parceiros</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+
+      <button
+        class="nav__toggle"
+        type="button"
+        data-nav-toggle
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir navegação"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero grain" id="hero">
+        <div class="hero__topmark">
+          <img
+            class="logo-asset logo-asset--light hero__logo"
+            src="./assets/yetucoders-logo.png"
+            alt=""
+            width="104"
+            height="104"
+          />
+        </div>
+
+        <div class="hero__content" data-parallax-root>
+          <div class="hero__line" aria-hidden="true"></div>
+          <div class="hero__copy" data-parallax-layer>
+            <p class="eyebrow">Luanda, Angola</p>
+            <h1>Tecnologia feita por nós, para nós.</h1>
+            <p class="hero__sub">
+              Startup angolana de software. Inovação local. Impacto real.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--solid" href="#contact">Falar com a YetuCoders</a>
+            </div>
+          </div>
+
+          <aside class="hero__media" data-parallax-layer>
+            <figure class="hero__frame">
+              <img
+                src="./assets/images/hero-workspace.jpg"
+                alt="Equipa tecnológica em ambiente colaborativo"
+              />
+            </figure>
+            <div class="hero__stack" aria-label="Áreas centrais da YetuCoders">
+              <p class="hero__label">Produto</p>
+              <p class="hero__label">Software</p>
+              <p class="hero__label">Execução</p>
+            </div>
+            <p class="hero__media-text">
+              Equipas, interface e implementação alinhadas para entregar rápido, com clareza operacional e base técnica forte.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section__heading">
+          <p class="eyebrow eyebrow--dark">Quem Somos</p>
+          <h2>Uma casa de software com visão editorial, rigor técnico e compromisso local.</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__text">
+            <p>
+              A YetuCoders nasce para construir tecnologia que entende a realidade angolana sem a tratar como margem. Criamos experiências digitais, plataformas e sistemas que respeitam o contexto local, elevam a qualidade da execução e colocam o utilizador no centro da decisão.
+            </p>
+            <p>
+              Para nós, <span class="yetu-mark">Yetu</span> é pertença, autoria e responsabilidade. É desenhar software com linguagem clara, produto útil e impacto mensurável, seja para equipas em crescimento, comunidades em formação ou organizações que precisam de evoluir com consistência.
+            </p>
+            <p>
+              Não perseguimos volume. Preferimos precisão. Cada projecto é tratado como uma peça estratégica: pesquisa, arquitectura, interface e implementação trabalham juntas para entregar presença, confiança e resultado.
+            </p>
+          </div>
+
+          <div class="about__card grain grain--light">
+            <img
+              class="logo-asset logo-asset--light about__logo"
+              src="./assets/yetucoders-logo.png"
+              alt="Logo YetuCoders"
+              width="148"
+              height="148"
+            />
+            <p class="about__card-title">Feito por nós, para nós</p>
+            <figure class="about__visual">
+              <img
+                src="./assets/images/about-dashboard.jpg"
+                alt="Painel digital de produto e métricas"
+              />
+            </figure>
+            <p class="about__card-text">
+              Uma assinatura que orienta a forma como pensamos produto, educação e transformação digital a partir de Angola.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services grain" id="services">
+        <div class="section__heading">
+          <p class="eyebrow">O Que Fazemos</p>
+          <h2>Actuamos onde tecnologia, capacitação e mobilização social podem mudar trajectórias.</h2>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <svg class="service-card__icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M10 17.5 32 10l22 7.5v29L32 54 10 46.5v-29Z" />
+              <path d="M32 10v44" />
+              <path d="M10 17.5 32 25l22-7.5" />
+            </svg>
+            <h3>Educação</h3>
+            <p>
+              Desenhamos plataformas, experiências de aprendizagem e produtos formativos que transformam conhecimento técnico em oportunidade concreta.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <svg class="service-card__icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M12 45 24 33l8 8 20-20" />
+              <path d="M40 21h12v12" />
+              <path d="M12 52h40" />
+            </svg>
+            <h3>Empreendedorismo</h3>
+            <p>
+              Apoiamos iniciativas e negócios com software sob medida, presença digital sólida e sistemas que permitem crescer sem improviso estrutural.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <svg class="service-card__icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <circle cx="15" cy="32" r="6" />
+              <circle cx="32" cy="18" r="6" />
+              <circle cx="49" cy="32" r="6" />
+              <circle cx="32" cy="46" r="6" />
+              <path d="M20 28l7-6" />
+              <path d="M37 22l7 6" />
+              <path d="M44 36l-7 6" />
+              <path d="M27 42l-7-6" />
+            </svg>
+            <h3>Inovação Social</h3>
+            <p>
+              Desenvolvemos soluções digitais que aproximam instituições, jovens e comunidades de novos caminhos de acesso, colaboração e impacto.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section signal" id="approach">
+        <div class="signal__panel">
+          <figure class="signal__visual">
+            <img
+              src="./assets/images/infra-atmosphere.jpg"
+              alt="Infraestrutura tecnológica com ambiente de engenharia"
+            />
+          </figure>
+
+          <div class="signal__copy">
+            <p class="eyebrow">Infraestrutura & Entrega</p>
+            <h2>Construímos software com estrutura, segurança e margem para crescer.</h2>
+            <p>
+              Da arquitectura à operação, tratamos performance, manutenção e consistência visual como parte do produto, não como acabamento tardio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section partners" id="partners">
+        <div class="section__heading section__heading--dark">
+          <p class="eyebrow eyebrow--dark">Parceiros</p>
+          <h2>Trabalhamos ao lado de instituições que ampliam alcance, credibilidade e continuidade.</h2>
+        </div>
+
+        <div class="partners__row">
+          <article class="partner-card">
+            <div class="partner-card__crest" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect x="9" y="10" width="30" height="28" rx="8" />
+                <path d="M17 18h14" />
+                <path d="M17 24h10" />
+                <path d="M17 30h14" />
+              </svg>
+            </div>
+            <img src="./assets/partners/digital-ao.png" alt="digital.ao" class="partner-card__logo partner-card__logo--digital" />
+            <p class="partner-card__name">digital.ao</p>
+          </article>
+
+          <article class="partner-card">
+            <div class="partner-card__crest" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M14 36V19l10-7 10 7v17" />
+                <path d="M19 36V25h10v11" />
+              </svg>
+            </div>
+            <img src="./assets/partners/infosi-dark.svg" alt="INFOSI" class="partner-card__logo partner-card__logo--infosi" />
+            <p class="partner-card__name">INFOSI</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact grain" id="contact">
+        <div class="section__heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Se a ideia pede clareza, estratégia e execução com assinatura, falemos.</h2>
+        </div>
+
+        <div class="contact__panel">
+          <a class="contact__item" href="tel:+244928310655">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <path d="M9 5h5l2 6-3 2a18 18 0 0 0 6 6l2-3 6 2v5c0 1.1-.9 2-2 2C14.5 25 7 17.5 7 7c0-1.1.9-2 2-2Z" />
+              </svg>
+            </span>
+            <span>+244 928 310 655</span>
+          </a>
+
+          <a class="contact__item" href="mailto:yetucoders@gmail.com">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <rect x="5" y="8" width="22" height="16" rx="2" />
+                <path d="m7 10 9 7 9-7" />
+              </svg>
+            </span>
+            <span>yetucoders@gmail.com</span>
+          </a>
+
+          <a class="contact__item" href="https://www.instagram.com" target="_blank" rel="noreferrer">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <rect x="7" y="7" width="18" height="18" rx="5" />
+                <circle cx="16" cy="16" r="4.5" />
+                <circle cx="22.3" cy="9.7" r="1.2" fill="currentColor" stroke="none" />
+              </svg>
+            </span>
+            <span>Instagram</span>
+          </a>
+
+          <a class="contact__item" href="https://www.facebook.com" target="_blank" rel="noreferrer">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <path d="M18.5 27V17.2H22l.5-4.1h-4v-2.6c0-1.2.4-2 2.1-2h2.1V4.8c-.4-.1-1.6-.3-3-.3-3 0-5.2 1.8-5.2 5.3v3.3H11v4.1h3.5V27" />
+              </svg>
+            </span>
+            <span>Facebook</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="footer__content">
+          <div class="footer__brand">
+            <img
+              class="logo-asset logo-asset--light footer__logo"
+              src="./assets/yetucoders-logo.png"
+              alt=""
+              width="46"
+              height="46"
+            />
+            <span>© 2026 YetuCoders · Luanda, Angola</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
